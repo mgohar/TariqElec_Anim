@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="./style.css">
   <style>
     body{
-      background-color: rgb(104, 104, 104);
+      background-color: rgb(0, 0, 0);
     }
     .pcanvas{
       width: 100%;
@@ -24,11 +24,21 @@
   </style>
 </head>
 <body>
-
 <div class="pcanvas">
   <canvas class="canvas"></canvas>
 </div>
-
+<audio id="LightAudio">
+  <source
+    src="./assets/music/light-switch-turn-on-sound_minify.mp3"
+    type="audio/mp3"
+  />
+</audio>
+<audio id="WhooshAudio">
+  <source
+    src="./assets/music/whoosh-fly-129047.mp3"
+    type="audio/mp3"
+  />
+</audio>
 <script type="module" src="/main.js"></script>
 
 
